@@ -49,6 +49,13 @@ button:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
-#hello{
+
+#aboutme{
+    text-align: center;
+}
+#edu{
+    text-align: center;
+}
+#wrkhis{
     text-align: center;
 }
