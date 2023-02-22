@@ -30,7 +30,7 @@ function quizGame() {
         //console.log("correct answer is yes")
     }
     else{ 
-        alert("Incorrect"); 
+        alert("Incorrect, you should read."); 
     }
     let work = prompt("Did I work at COOP Careers?")
     if (work.toLowerCase() == "yes" || work.toLowerCase() =="y") {
@@ -39,7 +39,7 @@ function quizGame() {
         //console.log("correct answer is yest")
     }
     else{ 
-        alert("Incorrect"); 
+        alert("Incorrect, are you sure you read?"); 
     }
 
     let hood = prompt("Did I live in Paris?")
@@ -49,7 +49,7 @@ function quizGame() {
         //console.log("correct answer is no")
     }
     else{ 
-        alert("Incorrect"); 
+        alert("Incorrect, it's too dirty"); 
     }
     
     let hobby = prompt("Am I interested in The Arts?")
@@ -63,7 +63,7 @@ function quizGame() {
     }
     let active = prompt("Do I like sports?")
     if (active.toLowerCase() == "no" || active.toLowerCase() =="n") {
-        alert("Correct");
+        alert("Correct, too boring");
          score++;
         //console.log("correct answer is no")
     }
