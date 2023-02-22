@@ -25,7 +25,8 @@ function quizGame() {
    
     let school = prompt("Did I go to Marymount for undergrad?")
     if (school.toLowerCase() == "yes" || school.toLowerCase() =="y") {
-        alert("Correct"), score++;
+        alert("Correct");
+         score++;
         
     }
     else{ 
@@ -33,7 +34,8 @@ function quizGame() {
     }
     let work = prompt("Did I work at COOP Careers?")
     if (work.toLowerCase() == "yes" || work.toLowerCase() =="y") {
-        alert("Correct"), score++;
+        alert("Correct");
+        score++;
         
     }
     else{ 
@@ -66,7 +68,7 @@ function quizGame() {
         alert("Incorrect"); 
     }
 }
- function onSubmit(){
-    alert("Thank you" + name )
+ {
+    alert("Thank you " + username + "!. You made a " + score + "out of 5!" );
  }
 
