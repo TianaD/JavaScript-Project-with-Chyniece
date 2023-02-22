@@ -20,7 +20,7 @@ function displayName(username){
 displayName(name) 
 
 
-
+let score = 0
 function quizGame() {
    
     let school = prompt("Did I go to Marymount for undergrad?")
