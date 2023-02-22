@@ -27,7 +27,7 @@ function quizGame() {
     if (school.toLowerCase() == "yes" || school.toLowerCase() =="y") {
         alert("Correct");
          score++;
-        
+        //console.log("correct answer is yes")
     }
     else{ 
         alert("Incorrect"); 
@@ -36,7 +36,7 @@ function quizGame() {
     if (work.toLowerCase() == "yes" || work.toLowerCase() =="y") {
         alert("Correct");
         score++;
-        
+        //console.log("correct answer is yest")
     }
     else{ 
         alert("Incorrect"); 
@@ -46,7 +46,7 @@ function quizGame() {
     if (hood.toLowerCase() == "no" || hood.toLowerCase() =="n") {
         alert("Correct");
          score++;
-        
+        //console.log("correct answer is no")
     }
     else{ 
         alert("Incorrect"); 
@@ -56,7 +56,7 @@ function quizGame() {
     if (hobby.toLowerCase() == "yes" || hobby.toLowerCase() =="y") {
         alert("Correct");
          score++;
-        
+        //console.log("correct answer is yes")
     }
     else{ 
         alert("Incorrect"); 
@@ -65,12 +65,12 @@ function quizGame() {
     if (active.toLowerCase() == "no" || active.toLowerCase() =="n") {
         alert("Correct");
          score++;
-        
+        //console.log("correct answer is no")
     }
     else{ 
         alert("Incorrect"); 
     }
-    alert("Thank you " + uname + "!. You made a " + score + " out of 5!" );
+    alert("Thank you " + uname + "! You made a " + score + "/5." );
 }  
  
     
