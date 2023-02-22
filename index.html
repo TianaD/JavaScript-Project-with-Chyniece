@@ -10,8 +10,18 @@
 </head>
 
 <body>
+    <div class="section">
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#school">Education</a></li>
+                <li><a href="#work">Work History</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
     <h1 id="hello"></h1>
-    <h2>About Me</h2>
+    <h2 id="aboutme">About Me</h2>
     <article>
         <p>My name is Chyniece Matthews and I'm a student learning software development at Code Crew.</p>
         <p id="hood"> I'm from Memphis, TN born and raised.</p>
@@ -43,13 +53,17 @@
     </article>
 
     <article>
-        Please answer each question with Y/N (yes or no). </article>
+        Please answer each question with Y/N (yes or no). 
+    </article>
 
+    
+    <div>
     <button id="quiz" onClick=quizGame()>Take Quiz</button>
+    </div>
 
     <script src="script.js"></script>
 
-    </script>
+
 </body>
 
 </html>

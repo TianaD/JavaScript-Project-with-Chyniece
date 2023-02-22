@@ -5,7 +5,7 @@ Make sure that all code is cleanly written with correct indentation and syntax. 
 Follow the Add, Commit, Push process. It should be evident in GitHub that commits are made regularly, and with good commit messages that explain the WHY of the commit.*/
 "use strict";
 
-let name = prompt("Enter your name here")
+let uname = prompt("Enter your name here")
 
 const x = document.querySelector("#hello");
 
@@ -17,9 +17,9 @@ function displayName(username){
     }
 }
 
-displayName(name) 
+displayName(uname) 
 
-
+ 
 let score = 0
 function quizGame() {
    
@@ -44,7 +44,8 @@ function quizGame() {
 
     let hood = prompt("Did I live in Paris?")
     if (hood.toLowerCase() == "no" || hood.toLowerCase() =="n") {
-        alert("Correct"), score++;
+        alert("Correct");
+         score++;
         
     }
     else{ 
@@ -53,7 +54,8 @@ function quizGame() {
     
     let hobby = prompt("Am I interested in The Arts?")
     if (hobby.toLowerCase() == "yes" || hobby.toLowerCase() =="y") {
-        alert("Correct"), score++;
+        alert("Correct");
+         score++;
         
     }
     else{ 
@@ -61,14 +63,16 @@ function quizGame() {
     }
     let active = prompt("Do I like sports?")
     if (active.toLowerCase() == "no" || active.toLowerCase() =="n") {
-        alert("Correct"), score++;
+        alert("Correct");
+         score++;
         
     }
     else{ 
         alert("Incorrect"); 
     }
-}
- {
-    alert("Thank you " + username + "!. You made a " + score + "out of 5!" );
- }
+    alert("Thank you " + uname + "!. You made a " + score + " out of 5!" );
+}  
+ 
+    
+ 
 
