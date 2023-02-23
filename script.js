@@ -33,6 +33,7 @@ let guessCount = 1; // sets the count to 1 - is this the players 1st go, sets gu
 let resetButton;
 
 
+
 function checkGuess() {
     const userGuess = Number(guessField.value); //declare var & sets the val to crrent val inside txt field, run it thru Num to make sure its a num
     if (guessCount === 1) { 
