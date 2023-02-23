@@ -160,6 +160,3 @@ function quizGame() {
     alert("Thank you " + uname + "! You made a " + score + "/5.");
 }
 
-
-
-
