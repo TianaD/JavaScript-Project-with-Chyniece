@@ -29,7 +29,7 @@ const guessSubmit = document.querySelector(".guessSubmit");
 const guessField = document.querySelector(".guessField");
 
 //these two variables store a guess count of 1 and a reference to the reset button
-let guessCount = 1; // sets the count to 1 - is this the players 1st go, sets guess paragraph to prev guesses 
+let guessCount = 0; // sets the count to 1 - is this the players 1st go, sets guess paragraph to prev guesses 
 let resetButton;
 
 
@@ -76,7 +76,7 @@ guessSubmit.addEventListener("click", checkGuess); //adds an event listener to t
 function setGameOver() {
     guessField.disabled = true;
     guessSubmit.disabled = true;
-    
+
     let butt = document.querySelector("#butt");
     resetButton = document.createElement('button');
     resetButton.textContent = "Start New Game";
@@ -159,6 +159,43 @@ function quizGame() {
     else {
         alert("Incorrect");
     }
+
     alert("Thank you " + uname + "! You made a " + score + "/5.");
 }
 
+
+
+function quizGame2(){
+
+//let yes = prompt("Can you guess my 4 favorite colors?");
+let answers = ["green", "purple", "black", "pink"];
+let ua = [];
+for(let i = 0; i < 4; i++) {
+    ua.push(prompt("Can you guess my 4 favorite colors?"));
+
+}
+
+
+console.log(ua);
+let correct = false;
+//loop through user ans 
+
+
+for (let i = 0; i < ua.length; i++) { //check user answer against correct ans
+    for (let j = 0; j < answers.length; j++) {
+        if(ua[i].toLowerCase() == answers[j]){
+            correct = true;
+            break;
+        }else if (ua[i] != answers[j]) {
+
+        }
+    }
+    if(correct) {
+        alert(ua[i] + " is correct");
+
+    } else {
+        alert(ua[i] + " is not correct");
+    }
+    
+}
+}
