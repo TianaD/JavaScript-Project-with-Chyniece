@@ -6,9 +6,9 @@ const x = document.querySelector("#hello");
 
 function displayName(username) {
     if (username === null || username.length == 0) {
-        x.innerHTML = "Hello";
+        x.innerHTML = "Hello, ";
     } else {
-        x.innerHTML = `Hello ${username}`;
+        x.innerHTML = `Hello,  ${username}`;
     }
 }
 
